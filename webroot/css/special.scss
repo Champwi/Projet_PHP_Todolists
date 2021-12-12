@@ -1,0 +1,25 @@
+@import "reset";
+
+
+$color1: #eb6134;
+$color2: #34ebcd;
+
+
+html{
+	font-family: Verdana, sans-serif;
+	a{
+		color: $color1;
+	}
+}
+form{
+	width: 500px;
+	margin: auto;
+	input{
+		padding: 10px;
+		border-radius: 10px;
+		width: 100%;
+	}
+	button{
+		background: $color2;
+	}
+}
